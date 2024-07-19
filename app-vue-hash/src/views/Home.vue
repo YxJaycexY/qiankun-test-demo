@@ -27,6 +27,7 @@ export default {
   },
   mounted() {
     console.log('app-vue-hash Home.vue mounted')
+    this.$router.push('/about')
   },
   methods: {
     changeParentState(){
